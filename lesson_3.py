@@ -93,7 +93,13 @@
 # a = 2
 # b = 330
 #
-# # if a > b:
+# operator = "-"
+#
+# if operator == "+":
+#     result = num_1 + num_2
+# elif operator == "-":
+#     result = num_1 - num_2
+
 # #     result = "A"
 # # else:
 # #     result = "B"
