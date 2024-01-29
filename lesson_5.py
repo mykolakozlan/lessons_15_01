@@ -92,24 +92,24 @@
 
 
 
-value = "Helloloooooooooooooooooooooollo"
-element = "l"
-count = 0
-found_index = value.find(element)
-found_index = value.index(element)
-print(found_index)
-
-for letter in value:
-    if letter == "l":
-        count += 1
-
-print(count)
-
-while found_index != -1:
-    count += 1
-    found_index = value.find(element, found_index + 1)
-
-print(count)
+# value = "Helloloooooooooooooooooooooollo"
+# element = "l"
+# count = 0
+# found_index = value.find(element)
+# found_index = value.index(element)
+# print(found_index)
+#
+# for letter in value:
+#     if letter == "l":
+#         count += 1
+#
+# print(count)
+#
+# while found_index != -1:
+#     count += 1
+#     found_index = value.find(element, found_index + 1)
+#
+# print(count)
 
 # print(value.count("l"))
 
