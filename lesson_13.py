@@ -15,14 +15,14 @@
 #         if n % i == 0:
 #             return False
 #     return True
-#
-#
+# #
+# #
 # def prime_generator(end):
-#     number = 1
-#     while number <= end:
-#         if simple_num(number):
-#             yield number
-#         number += 1
+#     _number = 1
+#     while _number <= end:
+#         if simple_num(_number):
+#             yield _number
+#         _number += 1
 #
 #
 # from inspect import isgenerator
